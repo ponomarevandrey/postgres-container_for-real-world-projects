@@ -22,3 +22,7 @@ To use the container, create the `.env` (1) file at the root of the project dir 
 
    ADMIN_EMAIL=your@email.ru
    ```
+   
+# Log into psql in container
+
+`psql -h localhost -p 5432 -U username -d db_name --password`
