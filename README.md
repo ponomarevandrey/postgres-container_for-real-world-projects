@@ -5,7 +5,7 @@ Username/password and db name are set in `.env` file. Pass the file (through `do
 
 # Environment variables
 
-To use the container, create the `.env` (1) file at the root of the project dir and set the following variables (2):
+To use the container, create the `.env` (1) file in the `postgres`-container dir and set the following variables (2):
 
 1. `touch .env`
 2. ```
